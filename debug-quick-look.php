@@ -37,7 +37,7 @@ define( __NAMESPACE__ . '\ASSETS_URL', URL . 'assets' );
 define( __NAMESPACE__ . '\HOOK_PREFIX', 'debug_quick_look_' );
 
 // Set the debug file we wanna use.
-define( __NAMESPACE__ . '\DEBUG_FILE', WP_CONTENT_DIR . '/debug.log' );
+define( __NAMESPACE__ . '\DEBUG_FILE', ini_get( 'error_log' ) );
 
 // Go and load our files.
 require_once __DIR__ . '/includes/activate.php';
