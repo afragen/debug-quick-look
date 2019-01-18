@@ -26,7 +26,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 if ( defined( __NAMESPACE__ . '\VERS' ) ) return;
 
 // Define our version.
-define( __NAMESPACE__ . '\VERS', '0.1.0.1' );
+define( __NAMESPACE__ . '\VERS', '0.1.1' );
 
 // Plugin Folder URL.
 define( __NAMESPACE__ . '\URL', plugin_dir_url( __FILE__ ) );
