@@ -30,7 +30,7 @@ if ( defined( __NAMESPACE__ . '\VERS' ) ) {
 }
 
 // Define our version.
-define( __NAMESPACE__ . '\VERS', '0.1.7' );
+define( __NAMESPACE__ . '\VERS', '0.1.9' );
 
 // Plugin Folder URL.
 define( __NAMESPACE__ . '\URL', plugin_dir_url( __FILE__ ) );
