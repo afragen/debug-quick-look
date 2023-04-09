@@ -237,11 +237,13 @@ function load_handler_intro( $args = array() ) {
 /**
  * Load our message to display.
  *
- * @param  string  $message  The total message output.
+ * @param  string|WP_Error  $message  The total message output.
  *
  * @return mixed
  */
 function load_handler_message( $message ) {
+
+	$message = is_wp_error( $message ) ? $message->get_error_message() : $message;
 
 	// Set an empty.
 	$build  = '';
