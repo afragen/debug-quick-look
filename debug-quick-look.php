@@ -20,10 +20,14 @@
 namespace DebugQuickLook;
 
 // Exit if accessed directly
-if ( ! defined( 'ABSPATH' ) ) exit;
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
 
 // Exit if already using this plugin.
-if ( defined( __NAMESPACE__ . '\VERS' ) ) return;
+if ( defined( __NAMESPACE__ . '\VERS' ) ) {
+	return;
+}
 
 // Define our version.
 define( __NAMESPACE__ . '\VERS', '0.1.7' );
