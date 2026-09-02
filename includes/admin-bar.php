@@ -127,7 +127,6 @@ function add_mobile_css() {
 				font: 18px/44px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif !important;
 				padding: 0 10px !important;
 				width: auto !important;
-
 			}
 
 			#wp-toolbar>ul>li#wp-admin-bar-debug-quick-look:before {
