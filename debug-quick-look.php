@@ -16,7 +16,7 @@
  * @package             DebugQuickLook
  */
 
-// Call our namepsace.
+// Call our namespace.
 namespace DebugQuickLook;
 
 // Exit if accessed directly
